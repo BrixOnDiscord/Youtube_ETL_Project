@@ -20,4 +20,4 @@ Originally, the project was intended to include an email notification step using
 ## 📜 License
 This project is for educational and portfolio use. Not affiliated with YouTube or Google.
 
-##Built by Brix — for learning, showcasing, and fun.
+## Built by Brix — for learning, showcasing, and fun.
