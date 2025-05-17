@@ -23,7 +23,7 @@ def Extract(api_key=None):
     """
     
     url = 'https://www.googleapis.com/youtube/v3/videos'
-    params={'regionCode':'US', 'chart': 'mostPopular', 'part': 'snippet,statistics,contentDetails', 'maxResults': 25, 'key': api_key}
+    params={'regionCode':'US', 'chart': 'mostPopular', 'part': 'snippet,statistics,contentDetails', 'maxResults': 50, 'key': api_key}
     
     response = requests.get(url, params=params)
     json_data = response.json()
