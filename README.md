@@ -1,7 +1,7 @@
 # YouTube ETL Project
 
 ## Overview
-This project implements an ETL pipeline that extracts data on the top 50 viral YouTube videos in the US, cleans and transforms the data, and outputs a CSV file with the processed results.
+This project implements an ETL pipeline that extracts data on the top 50 viral YouTube videos in the US, cleans and transforms the data, then loads the processed results both into a CSV file and a PostgreSQL database.
 
 ## Technologies Used
 - Python (for ETL scripting)
@@ -15,9 +15,16 @@ This project implements an ETL pipeline that extracts data on the top 50 viral Y
 This is a personal project developed to apply and test skills acquired in data engineering, including API integration, data processing, and pipeline orchestration.
 
 ## Project Scope and Limitations
-Originally, the project was intended to include an email notification step using Airflow's EmailOperator to notify the team when new data was pulled from the API and ready for EDA and visualization. However, this feature was scrapped due to version conflicts with Apache Airflow in the current development environment.
+Originally, the project was intended to include an email notification step using Airflow's EmailOperator to notify a hypothetical team when new data was pulled from the API and is ready for data analysis and visualization. However, this feature was dropped due to version conflicts in the current development environment.
 
 ## License
 This project is for educational and portfolio use. Not affiliated with YouTube or Google.
+
+## How to Run
+
+1. Configure your `.env` file with YouTube API key and PostgreSQL credentials.  
+2. Start Apache Airflow with the provided `docker-compose.yaml`.  
+3. Trigger the ETL DAG (`youtube_etl_dag`) via Airflow UI or CLI.  
+4. Check the output CSV file and PostgreSQL database for results.
 
 ## Built by Brix — for learning, showcasing, and fun.
