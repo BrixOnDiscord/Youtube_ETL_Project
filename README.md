@@ -17,7 +17,7 @@ This is a personal project developed to apply and test skills acquired in data e
 ## Project Scope and Limitations
 Originally, the project was intended to include an email notification step using Airflow's EmailOperator to notify the team when new data was pulled from the API and ready for EDA and visualization. However, this feature was scrapped due to version conflicts with Apache Airflow in the current development environment.
 
-## 📜 License
+## License
 This project is for educational and portfolio use. Not affiliated with YouTube or Google.
 
 ## Built by Brix — for learning, showcasing, and fun.
