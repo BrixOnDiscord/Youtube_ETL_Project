@@ -4,11 +4,11 @@
 This project implements an ETL pipeline that extracts data on the top 50 viral YouTube videos in the US, cleans and transforms the data, then loads the processed results both into a CSV file and a PostgreSQL database.
 
 ## Technologies Used
-- Python (for ETL scripting)
-- Apache Airflow (for scheduling and orchestration)
-- YouTube Data API (for data extraction)
-- Pandas (for data transformation and cleaning)
-- PostgreSQL (for data storage)
+- Python 
+- Apache Airflow 
+- YouTube Data API 
+- Pandas 
+- PostgreSQL 
 
 
 ## Project Motivation
