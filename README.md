@@ -28,3 +28,4 @@ This project is for educational and portfolio use. Not affiliated with YouTube o
 4. Check the output CSV file and PostgreSQL database for results.
 
 ## Built by Brix — for learning, showcasing, and fun.
+![Screenshot 2025-05-18 031517](https://github.com/user-attachments/assets/6958086e-2f18-46a5-8e6b-917aed938306)
