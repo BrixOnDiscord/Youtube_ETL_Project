@@ -1,7 +1,7 @@
 # YouTube ETL Project
 
 ## Overview
-This project implements an ETL pipeline that extracts data on the top 50 viral YouTube videos in the US, cleans and transforms the data, then loads the processed results both into a CSV file and a PostgreSQL database.
+This project implements an ETL pipeline that extracts data on the top 50 viral YouTube videos in the US, cleans and transforms the data, then loads the processed results both into a CSV file and a PostgreSQL database on an hourly basis.
 
 ## Technologies Used
 - Python 
